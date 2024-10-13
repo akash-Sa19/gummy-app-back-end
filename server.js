@@ -28,7 +28,7 @@ async function runScraper(queryString, orderBy, searchType, maxResult, sortBy) {
     ],
     sort: sortBy,
     type: searchType,
-    maxItems: maxResult,
+    maxItems: parseInt(maxResult),
     // maxPostCount: 10,
     maxComments: 5,
     maxCommunitiesCount: 2,
